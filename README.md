@@ -1,4 +1,7 @@
 # PowerShelll-Fix-NetmarbleLauncher
+
+Update: Verified this is still working with launcher version 1.02.010.
+
 Fixes a bug in the Netmarble Launcher for Ni No Kuni: Cross Worlds and The King of Fighers All Star
 
 Basically, the code for getting the available disk space in the Netmarble launcher is broken (As of v0.2.9 anyway). This script loads the config.json file from `$env:APPDATA/Netmarble Launcher/config.json`, makles a backup of the original config file, adds or updates the available disk space section, then saves the new version. This should be all you need to fix this silly bug:
