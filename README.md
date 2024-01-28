@@ -1,4 +1,4 @@
-# PowerShelll-Fix-NetmarbleLauncher
+# PowerShell-Fix-NetmarbleLauncher
 
 Update: Verified this is still working with launcher version 1.02.010.
 
